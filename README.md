@@ -3,10 +3,30 @@
 
 **Note: This only works for RAW and DNG files.**
 
-Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji body.
+Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji body.  
 This pack supplies **true 3-D LUTs** wrapped as Creative Profiles plus
-one-click **Preset wrappers** for batch work in Adobe Bridge.
+one-click **preset wrappers** for batch work in Adobe Bridge.
 
+## 📦 What's Included
+
+| Film Simulation       | Color / Tone Character                                                                                        | Where It Shines                                                                       |
+| --------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Provia** | Balanced contrast and saturation, neutral skin tones, slightly cool neutrals.                                  | Everyday shooting; product shots; a safe “baseline” look.                             |
+| **Velvia**    | High saturation (especially greens & blues), deep contrast, cool shadows.                                      | Landscapes, travel, any scene that benefits from punchy colour.                       |
+| **Astia**      | Gentle contrast curve, muted saturation, pastel highlights, warm skin bias.                                    | Portraits, fashion, weddings—when you want flattering skin without flat shadows.      |
+| **Classic Chrome**    | Low saturation, raised shadows, cyan-leaning blues, slight warm tint in mids—mimics vintage Kodachrome mags.   | Street, documentary, reportage with a “subtle retro” vibe.                            |
+| **Classic Neg**       | Medium-high contrast, muted colours, green-cyan shadows, warm highlights—emulates Fujicolor Superia film.      | Urban scenes, gritty portraits, overcast daylight; looks great with grain.            |
+| **Eterna**   | Very low saturation, soft highlight roll-off, protected shadows—built to grade like motion-picture print film. | Video, cinematic stills, high-dynamic-range scenes you’ll colour-grade later.         |
+| **Pro Neg Std**       | Flat contrast, natural saturation, slight magenta bias, smooth tonal transitions.                              | Controlled-light studio portraits; colour-critical catalogue work.                    |
+| **Pro Neg Hi**        | Same colour palette as Pro Neg Std but with boosted contrast and a touch more saturation.                      | Available-light portraits, events, interiors where you want a crisp yet natural look. |
+
+## ✨ Features
+These profiles:
+- No EXIF spoofing, your RAWs remain intact
+- Add Fuji’s film-simulation LUT on top of your Sony file after a neutral Adobe Standard Linear.dcp, so you get the Fuji vibe without losing sensor accuracy.
+- Keep your original color matrices and lens profiles intact — no tint shifts, no broken optics data.
+
+## 📁 File Description
 * **`*LUT.xmp`** files ending in `LUT.xmp` are **Develop-preset wrappers**.  
   They do nothing except switch to the matching Creative Profile—handy for
   directly applying profile in Bridge.
@@ -16,15 +36,6 @@ one-click **Preset wrappers** for batch work in Adobe Bridge.
 
 * **`.dcp`** is a **model-specific Adobe Standard Linear** base profile.
   It loads first so the LUT sees perfectly neutral color to ensure accuracy. 
-
-
-
-These profiles:
-- Apply Fujifilm's LookTable and ToneCurve on top of your Sony RAWs
-- Preserve Sony’s native sensor matrices for correct color science
-- Show up in **Adobe Camera Raw / Lightroom Classic** as **Creative profiles**
-- No EXIF spoofing, no sensor mismatch.  
-
 
 ## 🚀 Installation & Usage
 
@@ -47,7 +58,7 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 | Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\Settings`|
 | macOS   | `~/Library/Application Support/Adobe/CameraRaw/Settings/` |
 
-You can either copy the entire folder in or just by files. This won't have any impact for Adobe to read it.
+You can either copy the entire folder in or just by files. This won't have any impact for Adobe to process.
 ### 3. Relaunch Bridge / Photoshop / Camera Raw / Lightroom Classic / Lightroom
 Camera Raw only reads the profile folders at launch, so close every Adobe app that uses ACR, then open one again.
 
