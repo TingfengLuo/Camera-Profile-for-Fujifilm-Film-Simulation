@@ -70,7 +70,7 @@ Now you can apply the profile when editing a RAW!
 | Brand | Model |
 |-------|--------------|
 | Sony  | a7c2 |
-
+| iPhone | 14 |
 
 Will add more in the future, if I have time~
 
