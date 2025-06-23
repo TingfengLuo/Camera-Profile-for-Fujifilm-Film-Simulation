@@ -1,8 +1,23 @@
-# 🎞 Fuji Film Simulation Creative Profiles for Sony A7C Mark II
+# 🎞 Fujifilm Film Simulation LUT Pack  
+*(Bridge / Camera Raw / Lightroom Classic)*
 
-This repository provides a set of **Fujifilm-style film simulations** as `.dcp` Creative Profiles, adapted for use on **Sony A7C II** RAW files. These profiles replicate popular Fuji film looks—**Provia, Velvia, Astia, Classic Chrome, Pro Neg Std, Pro Neg Hi, Eterna**—by injecting their color rendering style while preserving your Sony camera’s native color accuracy.
+**Note: This only works for RAW and DNG files.**
 
-*Note: This only works on RAW files.*
+Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji body.
+This pack supplies **true 3-D LUTs** wrapped as Creative Profiles plus
+one-click **Preset wrappers** for batch work in Adobe Bridge.
+
+* **`*LUT.xmp`** files ending in `LUT.xmp` are **Develop-preset wrappers**.  
+  They do nothing except switch to the matching Creative Profile—handy for
+  directly applying profile in Bridge.
+
+* **`*.xmp`** files without *LUT* in the name are the real **Creative Profiles**.  
+  They embed a 32-point `.cube` LUT from [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles), and have **no camera model restriction**.
+
+* **`.dcp`** is a **model-specific Adobe Standard Linear** base profile.
+  It loads first so the LUT sees perfectly neutral color to ensure accuracy. 
+
+
 
 These profiles:
 - Apply Fujifilm's LookTable and ToneCurve on top of your Sony RAWs
@@ -10,23 +25,6 @@ These profiles:
 - Show up in **Adobe Camera Raw / Lightroom Classic** as **Creative profiles**
 - No EXIF spoofing, no sensor mismatch.  
 
----
-
-## 📦 What's Included
-
-| Filename | Film Simulation | Description |
-|----------|------------------|-------------|
-| `Fuji_Provia_Sony.dcp`         | Provia         | Balanced, punchy base look |
-| `Fuji_Velvia_Sony.dcp`         | Velvia         | High saturation, vivid tones |
-| `Fuji_Astia_Sony.dcp`          | Astia          | Soft contrast, pleasing skin tones |
-| `Fuji_ClassicChrome_Sony.dcp`  | Classic Chrome | Vintage, muted tones |
-| `Fuji_ProNegStd_Sony.dcp`      | Pro Neg Std    | Neutral portrait studio tone |
-| `Fuji_ProNegHi_Sony.dcp`       | Pro Neg Hi     | Higher contrast portrait look |
-| `Fuji_Eterna_Sony.dcp`         | Eterna         | Flat cinematic tone curve |
-
-*Note: Those profiles are created by following the procedures in [abpy/FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles).*
-
----
 
 ## 🚀 Installation & Usage
 
@@ -41,12 +39,21 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 | Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\`|
 | macOS   | `~/Library/Application Support/Adobe/CameraRaw/CameraProfiles/` |
 
-### 3. Relaunch Bridge / Photoshop / Camera Raw (or Lightroom Classic)
+:warning: **.dcp files only, do NOT include the folder.**
+### 3. Copy the model specific LUT folder to the correct profile folder
+
+| OS      | Destination Folder                                              |
+| ------- | --------------------------------------------------------------- |
+| Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\Settings`|
+| macOS   | `~/Library/Application Support/Adobe/CameraRaw/Settings/` |
+
+You can either copy the entire folder in or just by files. This won't have any impact for Adobe to read it.
+### 3. Relaunch Bridge / Photoshop / Camera Raw / Lightroom Classic / Lightroom
 Camera Raw only reads the profile folders at launch, so close every Adobe app that uses ACR, then open one again.
 
-### 4. Apply the profiles when editing a Sony A7C II RAW
+### 4. Apply the profiles when editing a RAW
 ```
-1. Open an A7C II .ARW file.
+1. Open a .ARW file.
 2. Click the browse profile icon:
 ```
 ![image](images/browse.png)
