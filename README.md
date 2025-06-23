@@ -1,7 +1,7 @@
 # 🎞🎨 Fujifilm Film Simulation LUT Pack  
 *(Bridge / Camera Raw / Lightroom Classic)*
 
-**Note: This only works for RAW and DNG files.**
+**Note: This only works for RAW (and sometimes DNG) files.**
 
 Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji body.  
 This pack supplies **true 3-D LUTs** wrapped as Creative Profiles plus
