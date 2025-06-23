@@ -76,6 +76,7 @@ All models currently supported by Adobe CameraRaw v17.4 (sums up to 1348 differe
 | Leica | M, R, Q, S, C-Lux, D-Lux, V-Lux, TL, SL, X |
 | Apple | iPad, iPhone|
 | Hasselblad | X1D-50, L2D-20c, 39-coated, 100-20-coated6 (if you can tell from the file name) |
+| DJI | Air, Mini, Mavic |
 | Phase One | P, IQ |
 | Olympus | C, E, PEN, SH, SP, STYLUS, TG, XZ |
 | Google | Pixel, GoPro |
