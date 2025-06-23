@@ -84,22 +84,22 @@ All models currently supported by Adobe CameraRaw v17.4 (sums up to 1348 differe
 | HUAWEI | Honor, P, Mate |
 | Motorola | Moto G Power |
 | Leaf | AFi, Aptus, Credo, Valeo |
-| Kodak |  |
-| LG |  |
-| Mamiya |  |
-| Minolta |  |
-| OnePlus |  |
-| OPPO |  |
-| Lumix / Panasonic |  |
-| Parrot |  |
-| Pentax |  |
-| RICOH |  |
-| Samsung |  |
-| Sigma |  |
-| Xiaomi |  |
+| Kodak | some but I don't know which *  |
+| LG | some but I don't know which *  |
+| Mamiya | some but I don't know which *  |
+| Minolta | some but I don't know which *  |
+| OnePlus | some but I don't know which *  |
+| OPPO | some but I don't know which *  |
+| Lumix / Panasonic | some but I don't know which *  |
+| Parrot | some but I don't know which *  |
+| Pentax | some but I don't know which *  |
+| RICOH | some but I don't know which *  |
+| Samsung | some but I don't know which *  |
+| Sigma | some but I don't know which *  |
+| Xiaomi | some but I don't know which *  |
 
 
-Models for some brands are listed empty cuz I don't understand the file names lol. 
+*Models for some brands are not fully listed cuz I don't understand the file names lol. 
 
 Will update as CameraRaw goes, if I have time~
 
