@@ -7,6 +7,8 @@ Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji bod
 This pack supplies **true 3-D LUTs** wrapped as Creative Profiles plus
 one-click **preset wrappers** for batch work in Adobe Bridge.
 
+If you are seeking simulation through `.dcp` file only (perceptually no difference besides some minor histogram changes when I compared), see my other repo [Fujifilm-Camera-Profile-for-Sony-a7c2](https://github.com/TingfengLuo/Fujifilm-Camera-Profile-for-Sony-a7c2) (I won't update that repo with other models since it's too much trouble). You can also follow the procedure described in [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) to manually curate your own `.dcp` file tailored for your camera model.
+
 ## 📦 What's Included
 
 | Film Simulation       | Color / Tone Character                                                                                        | Where It Shines                                                                       |
