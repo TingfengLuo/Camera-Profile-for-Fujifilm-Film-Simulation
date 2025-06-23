@@ -8,6 +8,52 @@ This pack supplies **true 3-D LUTs** wrapped as Creative Profiles plus
 one-click **preset wrappers** for batch work in Adobe Bridge.
 
 If you are seeking simulation through `.dcp` file only (perceptually no difference besides some minor histogram changes when I compared), see my other repo [Fujifilm-Camera-Profile-for-Sony-a7c2](https://github.com/TingfengLuo/Fujifilm-Camera-Profile-for-Sony-a7c2) (I won't update that repo with other models since it's too much trouble). You can also follow the procedure described in [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) to manually curate your own `.dcp` file tailored for your camera model.
+## 🎬 Before-and-After
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo%20images/original.jpg" width="100%"><br/>
+      <sub><b>Original</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Classic%20Neg.jpg" width="100%"><br/>
+      <sub><b>Classic Neg</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Classic%20Chrome.jpg" width="100%"><br/>
+      <sub><b>Classic Chrome</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo%20images/Astia.jpg" width="100%"><br/>
+      <sub><b>Astia</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Provia.jpg" width="100%"><br/>
+      <sub><b>Provia</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Velvia.jpg" width="100%"><br/>
+      <sub><b>Velvia</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demo%20images/Eterna.jpg" width="100%"><br/>
+      <sub><b>Eterna</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Pro%20Neg%20Std.jpg" width="100%"><br/>
+      <sub><b>Pro Neg Std</b></sub>
+    </td>
+    <td align="center">
+      <img src="demo%20images/Pro%20Neg%20Hi.jpg" width="100%"><br/>
+      <sub><b>Pro Neg Hi</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## 📦 What's Included
 
