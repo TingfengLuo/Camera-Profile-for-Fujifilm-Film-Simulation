@@ -1,4 +1,4 @@
-# 🎞 Fujifilm Film Simulation LUT Pack  
+# 🎞🎨 Fujifilm Film Simulation LUT Pack  
 *(Bridge / Camera Raw / Lightroom Classic)*
 
 **Note: This only works for RAW and DNG files.**
@@ -37,7 +37,7 @@ These profiles:
 * **`.dcp`** is a **model-specific Adobe Standard Linear** base profile.
   It loads first so the LUT sees perfectly neutral color to ensure accuracy. 
 
-## 🚀 Installation & Usage
+## 🛠️ Installation & Usage
 
 ### 1. Download or Clone
 ```bash
@@ -59,19 +59,16 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 | macOS   | `~/Library/Application Support/Adobe/CameraRaw/Settings/` |
 
 You can either copy the entire folder in or just by files. This won't have any impact for Adobe to process.
-### 3. Relaunch Bridge / Photoshop / Camera Raw / Lightroom Classic / Lightroom
-Camera Raw only reads the profile folders at launch, so close every Adobe app that uses ACR, then open one again.
+### 4. Relaunch Bridge / Photoshop / Camera Raw / Lightroom Classic / Lightroom
+Camera Raw only reads the profile folders at launch, so close every Adobe app that uses ACR, then open one again.  
+Now you can apply the profile when editing a RAW!
 
-### 4. Apply the profiles when editing a RAW
-```
-1. Open a .ARW file.
-2. Click the browse profile icon:
-```
-![image](images/browse.png)
-```
-4. Expand Profiles:
-```
-![image](images/profile.png)
-```
-5. Select any of the Fuji profiles to apply
-```
+
+## 📷✅ Supported Models
+| Brand | Model |
+|-------|--------------|
+| Sony  | a7c2 |
+
+
+Will add more in the future, if I have time~
+
