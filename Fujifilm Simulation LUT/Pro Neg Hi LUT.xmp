@@ -51,8 +51,8 @@
     crs:UUID="6B4FEE7F6EEA3D4881C0C95CC06FB27F"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="false"
-    crs:CameraModelRestriction="Sony ILCE-7CM2"
+    crs:SupportsOutputReferred="true"
+    crs:CameraModelRestriction=""
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

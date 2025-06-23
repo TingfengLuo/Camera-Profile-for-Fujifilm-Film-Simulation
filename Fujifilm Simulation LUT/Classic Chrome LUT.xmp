@@ -51,7 +51,8 @@
     crs:UUID="615F1C4CB7279B438853990233527395"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="false"
+    crs:SupportsOutputReferred="true"
+    crs:CameraModelRestriction=""
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

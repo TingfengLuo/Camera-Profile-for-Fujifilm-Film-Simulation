@@ -11,7 +11,7 @@
    crs:SupportsHighDynamicRange="True"
    crs:SupportsNormalDynamicRange="True"
    crs:SupportsSceneReferred="True"
-   crs:SupportsOutputReferred="False"
+   crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
