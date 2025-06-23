@@ -25,7 +25,7 @@ If you are seeking simulation through `.dcp` file only (perceptually no differen
 ## ✨ Features
 These profiles:
 - No EXIF spoofing, your RAWs remain intact
-- Add Fuji’s film-simulation LUT on top of your Sony file after a neutral Adobe Standard Linear.dcp, so you get the Fuji vibe without losing sensor accuracy.
+- Add Fuji’s film-simulation LUT on top of your RAW file after a neutral Adobe Standard Linear.dcp, so you get the Fuji vibe without losing sensor accuracy.
 - Keep your original color matrices and lens profiles intact — no tint shifts, no broken optics data.
 
 ## 📁 File Description
@@ -67,10 +67,38 @@ Now you can apply the profile when editing a RAW!
 
 
 ## 📷✅ Supported Models
+All models currently supported by Adobe CameraRaw v17.4 (sums up to 1348 different models), see following 
 | Brand | Model |
 |-------|--------------|
-| Sony  | a7c2 |
-| iPhone | 14 |
+| Sony  | ZV, Xperia, SLT, NEX, DSLR, DSC, ILCE |
+| Nikon | 1, D, Z, Coolpix |
+| Canon | PowerShot, EOS, EQS|
+| Leica | M, R, Q, S, C-Lux, D-Lux, V-Lux, TL, SL, X |
+| Apple | iPad, iPhone|
+| Hasselblad | X1D-50, L2D-20c, 39-coated, 100-20-coated6 (if you can tell from the file name) |
+| Phase One | P, IQ |
+| Olympus | C, E, PEN, SH, SP, STYLUS, TG, XZ |
+| Google | Pixel, GoPro |
+| GoPro | Hero |
+| HUAWEI | Honor, P, Mate |
+| Motorola | Moto G Power |
+| Leaf | AFi, Aptus, Credo, Valeo |
+| Kodak |  |
+| LG |  |
+| Mamiya |  |
+| Minolta |  |
+| OnePlus |  |
+| OPPO |  |
+| Lumix / Parasonic |  |
+| Parrot |  |
+| Pentax |  |
+| RICOH |  |
+| Samsung |  |
+| Sigma |  |
+| Xiaomi |  |
 
-Will add more in the future, if I have time~
+
+Models for some brands are listed empty cuz I don't understand the file names lol. 
+
+Will update as CameraRaw goes, if I have time~
 
