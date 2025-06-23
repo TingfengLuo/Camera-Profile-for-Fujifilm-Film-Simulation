@@ -90,7 +90,7 @@ All models currently supported by Adobe CameraRaw v17.4 (sums up to 1348 differe
 | Minolta |  |
 | OnePlus |  |
 | OPPO |  |
-| Lumix / Parasonic |  |
+| Lumix / Panasonic |  |
 | Parrot |  |
 | Pentax |  |
 | RICOH |  |
