@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="0D13B55D1572764DB45A272E34242194"
+   crs:UUID="951055A3ABE24D4FBC1F98ABAE8C020C"
    crs:SupportsAmount2="False"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
@@ -14,15 +14,17 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="17.3.1"
+   crs:Version="18.1.1"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Classic Chrome LUT</rdf:li>
+     <rdf:li xml:lang="x-default">Nostalgic Neg</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -37,7 +39,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Simulation</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Film Simulation</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -46,13 +48,12 @@
     </rdf:Alt>
    </crs:Description>
    <crs:Look
-    crs:Name="Classic Chrome"
+    crs:Name="Nostalgic Neg"
     crs:Amount="1"
-    crs:UUID="615F1C4CB7279B438853990233527395"
+    crs:UUID="77AB4EC1B7FB3D4F9ACFD10F828297FF"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="true"
-    crs:CameraModelRestriction=""
+    crs:SupportsOutputReferred="false"
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

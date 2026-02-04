@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="0CFAFAB17AEF8C479F81CB1BC36293EA"
+   crs:UUID="AFEB249AF555404491F43D5C4A4C6B8B"
    crs:SupportsAmount2="False"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
@@ -14,15 +14,17 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="17.3.1"
+   crs:Version="18.1.1"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Pro Neg Hi LUT</rdf:li>
+     <rdf:li xml:lang="x-default">Bleach Bypass</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -37,7 +39,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Simulation</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Film Simulation</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -46,13 +48,12 @@
     </rdf:Alt>
    </crs:Description>
    <crs:Look
-    crs:Name="Pro Neg Hi"
+    crs:Name="Bleach Bypass"
     crs:Amount="1"
-    crs:UUID="6B4FEE7F6EEA3D4881C0C95CC06FB27F"
+    crs:UUID="3A31A001DE9B1B4C82E3B2529AFCE91F"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="true"
-    crs:CameraModelRestriction=""
+    crs:SupportsOutputReferred="false"
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

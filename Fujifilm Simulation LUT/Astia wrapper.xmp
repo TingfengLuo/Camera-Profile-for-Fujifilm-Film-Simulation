@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="1744A1FE40E049419AF95695BB27B83E"
+   crs:UUID="BEE30308EC58AC4B8B6AA918639F0888"
    crs:SupportsAmount2="False"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
@@ -14,15 +14,17 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="17.3.1"
+   crs:Version="18.1.1"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Provia LUT</rdf:li>
+     <rdf:li xml:lang="x-default">Astia</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -37,7 +39,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Simulation</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Film Simulation</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -46,13 +48,13 @@
     </rdf:Alt>
    </crs:Description>
    <crs:Look
-    crs:Name="Provia"
+    crs:Name="Astia"
     crs:Amount="1"
-    crs:UUID="D2BA22C3DF22A64BA1C0D0FB5B8A50AB"
+    crs:UUID="0E1E017C7405834F877862F060A5AD40"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="true"
-    crs:CameraModelRestriction=""
+    crs:SupportsOutputReferred="false"
+    crs:ShowInQuickActions="true"
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="88F2778CCF28E34F97697D63F9E4EE29"
+   crs:UUID="8AC63D92C2016D488ABB6A0261F85DBB"
    crs:SupportsAmount2="False"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
@@ -14,15 +14,17 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="17.3.1"
+   crs:Version="18.1.1"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Classic Neg LUT</rdf:li>
+     <rdf:li xml:lang="x-default">Provia</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -37,7 +39,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Simulation</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Film Simulation</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -46,13 +48,12 @@
     </rdf:Alt>
    </crs:Description>
    <crs:Look
-    crs:Name="Classic Neg"
+    crs:Name="Provia"
     crs:Amount="1"
-    crs:UUID="213DCB788A085742848FC7B11F3CEA82"
+    crs:UUID="C0D5E9A7C0CA7E43B11C685612B15577"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="true"
-    crs:CameraModelRestriction=""
+    crs:SupportsOutputReferred="false"
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>

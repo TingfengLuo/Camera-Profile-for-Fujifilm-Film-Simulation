@@ -4,7 +4,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="7D7D02FBA69A3F4A9F4D651EE296B541"
+   crs:UUID="19A9B7B067B40E478E9CCC88F60DECC9"
    crs:SupportsAmount2="False"
    crs:SupportsAmount="False"
    crs:SupportsColor="True"
@@ -14,15 +14,17 @@
    crs:SupportsSceneReferred="True"
    crs:SupportsOutputReferred="True"
    crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
    crs:CameraModelRestriction=""
    crs:Copyright=""
    crs:ContactInfo=""
-   crs:Version="17.3.1"
+   crs:Version="18.1.1"
    crs:ProcessVersion="15.4"
    crs:HasSettings="True">
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Astia LUT</rdf:li>
+     <rdf:li xml:lang="x-default">Eterna</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -37,7 +39,7 @@
    </crs:SortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Simulation</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Film Simulation</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Description>
@@ -46,13 +48,12 @@
     </rdf:Alt>
    </crs:Description>
    <crs:Look
-    crs:Name="Astia"
+    crs:Name="Eterna"
     crs:Amount="1"
-    crs:UUID="646A6A44A46E5E4387362CEC6EBA01DF"
+    crs:UUID="A0559CC088A45B4783D0E0A7580C6D7D"
     crs:SupportsAmount="false"
     crs:SupportsMonochrome="false"
-    crs:SupportsOutputReferred="true"
-    crs:CameraModelRestriction=""
+    crs:SupportsOutputReferred="false"
     crs:Stubbed="true"/>
   </rdf:Description>
  </rdf:RDF>
