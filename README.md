@@ -130,7 +130,7 @@ Now you can apply the profile when editing a RAW!
 
 
 ## 📷✅ Supported Models
-All models currently supported by Adobe CameraRaw v18.1 (sums up to 1414 different models), see following 
+All models currently supported by Adobe CameraRaw v18.1 (sums up to 1464 different models), see following 
 | Brand | Model |
 |-------|--------------|
 | Sony  | ZV, Xperia, SLT, NEX, DSLR, DSC, ILCE |
