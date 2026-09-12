@@ -1,118 +1,117 @@
-# 🎞️ Fujifilm Film Simulation Creative Profiles
+# 🎞️ 富士胶片模拟创意配置文件
 
 *(Bridge / Camera Raw / Lightroom Classic)*
 
-English | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
-**Note: This only works for RAW and sometimes DNG files.**
+**注意：仅适用于 RAW 文件，部分 DNG 文件也可能适用。**
 
-Bring Fuji’s famous film looks to any RAW workflow—without owning a Fuji body.
+不用富士相机，也能在 RAW 后期中用上富士经典的胶片色彩。
 
-The Creative Profiles have **no camera-model restriction**, so you can use the same looks across supported **cameras, phones, and drones**, with matching presets for batch work. Each device uses its own Adobe Standard Linear base profile, without changing your RAW file's camera identity.
+这套创意配置文件（Creative Profiles）**不限制相机型号**，支持的**相机、手机和无人机**都能使用同一套胶片风格，还附带预设，方便批量套用。使用时，只需搭配与设备型号对应的 Adobe Standard Linear 基础配置文件，无需修改 RAW 文件中的相机型号信息。
 
-[Install](#installation) · [How it works](#how-it-works) · [Supported models](#supported-models)
+[安装方法](#安装方法) · [工作原理](#工作原理) · [支持的型号](#支持的型号)
 
-## 🎬 Before and After
+## 🎬 效果对比
 
-| Original | Classic Neg | Classic Chrome |
+| 原图 | Classic Neg | Classic Chrome |
 | :---: | :---: | :---: |
-| ![Original photo](demo%20images/Original.jpg) | ![Photo with Classic Neg](demo%20images/Classic%20Neg.jpg) | ![Photo with Classic Chrome](demo%20images/Classic%20Chrome.jpg) |
+| ![原图](demo%20images/Original.jpg) | ![Classic Neg 效果](demo%20images/Classic%20Neg.jpg) | ![Classic Chrome 效果](demo%20images/Classic%20Chrome.jpg) |
 
 | Astia | Provia | Velvia |
 | :---: | :---: | :---: |
-| ![Photo with Astia](demo%20images/Astia.jpg) | ![Photo with Provia](demo%20images/Provia.jpg) | ![Photo with Velvia](demo%20images/Velvia.jpg) |
+| ![Astia 效果](demo%20images/Astia.jpg) | ![Provia 效果](demo%20images/Provia.jpg) | ![Velvia 效果](demo%20images/Velvia.jpg) |
 
 | Eterna | Pro Neg Std | Pro Neg Hi |
 | :---: | :---: | :---: |
-| ![Photo with Eterna](demo%20images/Eterna.jpg) | ![Photo with Pro Neg Std](demo%20images/Pro%20Neg%20Std.jpg) | ![Photo with Pro Neg Hi](demo%20images/Pro%20Neg%20Hi.jpg) |
+| ![Eterna 效果](demo%20images/Eterna.jpg) | ![Pro Neg Std 效果](demo%20images/Pro%20Neg%20Std.jpg) | ![Pro Neg Hi 效果](demo%20images/Pro%20Neg%20Hi.jpg) |
 
 | Reala Ace | Bleach Bypass | Nostalgic Neg |
 | :---: | :---: | :---: |
-| ![Photo with Reala Ace](demo%20images/Reala%20Ace.jpg) | ![Photo with Bleach Bypass](demo%20images/Bleach%20Bypass.jpg) | ![Photo with Nostalgic Neg](demo%20images/Nostalgic%20Neg.jpg) |
+| ![Reala Ace 效果](demo%20images/Reala%20Ace.jpg) | ![Bleach Bypass 效果](demo%20images/Bleach%20Bypass.jpg) | ![Nostalgic Neg 效果](demo%20images/Nostalgic%20Neg.jpg) |
 
-## Film simulations
+## 胶片模拟风格
 
-| Simulation | Character | Try it with |
+| 风格 | 色彩特点 | 适合题材 |
 | --- | --- | --- |
-| **Provia** | Balanced color and contrast | Everyday photography |
-| **Velvia** | Vivid color and strong contrast | Landscapes and travel |
-| **Astia** | Gentle color and softer contrast | People and portraits |
-| **Classic Chrome** | Muted color and a restrained palette | Street and documentary |
-| **Classic Neg** | Strong contrast with warm and cool color shifts | Urban scenes and overcast light |
-| **Eterna** | Low saturation and soft contrast | Understated, cinematic stills |
-| **Pro Neg Std** | Natural color and low contrast | Studio portraits |
-| **Pro Neg Hi** | A more contrasty portrait look | Events and environmental portraits |
-| **Nostalgic Neg** | Warm highlights and a mellow palette | Golden hour and lifestyle |
-| **Reala Ace** | Natural color with rich tonal depth | Everyday scenes and mixed light |
-| **Bleach Bypass** | Desaturated color and high contrast | Dramatic urban scenes |
+| **Provia** | 色彩自然，对比适中 | 日常摄影 |
+| **Velvia** | 色彩鲜艳，对比强烈 | 风光、旅行 |
+| **Astia** | 色彩温和，对比柔和 | 人像摄影 |
+| **Classic Chrome** | 低饱和度，色彩克制 | 街拍、纪实 |
+| **Classic Neg** | 对比强烈，色调富有冷暖变化 | 城市街拍、阴天拍摄 |
+| **Eterna** | 低饱和度，对比柔和 | 追求电影氛围的拍摄 |
+| **Pro Neg Std** | 色彩自然，低对比 | 棚拍人像 |
+| **Pro Neg Hi** | 人像色彩自然，对比更鲜明 | 活动记录、环境人像 |
+| **Nostalgic Neg** | 高光偏暖，整体色调柔和 | 日出日落、生活记录 |
+| **Reala Ace** | 色彩自然，影调层次丰富 | 日常拍摄、混合光源场景 |
+| **Bleach Bypass** | 低饱和度，高对比 | 氛围强烈的城市题材 |
 
-## How it works
+## 工作原理
 
-The pack builds on **your camera's Adobe color calibration**, preserving its color matrices, hue shifts, saturation and brightness multipliers, color-table encoding, and profile exposure offset. The DCP conversion removes the separate Adobe LookTable and is designed to replace the profile's tone curve with a straight line, giving the film LUT a base that retains the camera's color corrections without the original profile's contrast curve or separate look. The Creative Profile references **Adobe Standard Linear** and applies the embedded 3D LUT for your selected film simulation. The `.dcp` base remains camera-specific, while the Creative Profiles have no camera-model restriction. Because the conversion edits profile files, your RAW data, white-balance metadata, camera identity, and lens metadata stay untouched, with no EXIF spoofing required.
+这套配置文件保留了 **Adobe 针对各款相机的色彩校准数据**，包括颜色矩阵、色相偏移、饱和度和亮度的缩放系数、查找表的编码方式，以及配置文件中的曝光偏移量。DCP 转换的思路是移除用于附加风格的 Adobe LookTable，并将原有的色调曲线改为直线，在保留相机色彩校正的同时，为胶片 LUT 提供不叠加原有对比曲线和风格的基础。创意配置文件在此基础上调用 **Adobe Standard Linear**，再应用所选胶片风格内嵌的 3D LUT。`.dcp` 基础配置文件需要与设备型号对应，创意配置文件则可以跨型号通用。整个转换过程只处理配置文件，不会改动 RAW 数据、白平衡、相机型号或镜头等元数据，也不需要修改 EXIF 来伪装相机型号。
 
-| File | Purpose |
+| 文件 | 用途 |
 | --- | --- |
-| `Adobe Standard Linear Profile/*.dcp` | Camera-specific base profiles |
-| `Fujifilm Simulation LUT/*.xmp` | Creative Profiles containing the film LUTs from [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
-| `Fujifilm Simulation LUT/*wrapper.xmp` | Presets that select the corresponding Creative Profile |
+| `Adobe Standard Linear Profile/*.dcp` | 与相机型号匹配的基础配置文件 |
+| `Fujifilm Simulation LUT/*.xmp` | 包含胶片 LUT 的创意配置文件，LUT 来自 [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
+| `Fujifilm Simulation LUT/*wrapper.xmp` | 一键调用对应创意配置文件的预设 |
 
-## Installation
+## 安装方法
 
-### 1. Download the pack
+### 1. 下载文件
 
-Use **Code → Download ZIP** on [the repository](https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simulation), then extract it. Or clone it:
+打开[项目页面](https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simulation)，点击 **Code → Download ZIP** 下载压缩包并解压。也可以用以下命令下载：
 
 ```bash
 git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simulation.git
 ```
 
-### 2. Install your camera's base profile
+### 2. 安装相机基础配置文件
 
-Copy `.dcp` files in [Adobe Standard Linear Profile](Adobe%20Standard%20Linear%20Profile/) into the folder for your operating system:
+根据你的操作系统，将 [Adobe Standard Linear Profile](Adobe%20Standard%20Linear%20Profile/) 文件夹中的 `.dcp` 文件复制到以下位置：
 
-| System | Base-profile destination |
+| 系统 | 基础配置文件存放位置 |
 | --- | --- |
 | Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\` |
 | macOS | `/Users/<your-login>/Library/Application Support/Adobe/CameraRaw/CameraProfiles/` |
 
-Replace `<your-login>` with your computer account name (for example, `C:\Users\leumas\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\` on Windows).
+路径中的 `<your-login>` 是你的电脑账户名。例如，账户名为 `leumas` 时，Windows 下的完整路径就是 `C:\Users\leumas\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\`。
 
-⚠️ **.dcp files only, do NOT include the folder.**
+⚠️ **这里只复制 .dcp 文件，不要复制整个文件夹。**
 
-### 3. Install the film simulations
+### 3. 安装胶片模拟配置文件
 
-Copy the entire [Fujifilm Simulation LUT](Fujifilm%20Simulation%20LUT/) folder, including all 22 `.xmp` files, into:
+将整个 [Fujifilm Simulation LUT](Fujifilm%20Simulation%20LUT/) 文件夹（包含全部 22 个 `.xmp` 文件）复制到：
 
-| System | Creative-profile and preset destination |
+| 系统 | 创意配置文件与预设存放位置 |
 | --- | --- |
 | Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\Settings\` |
 | macOS | `/Users/<your-login>/Library/Application Support/Adobe/CameraRaw/Settings/` |
 
-You can either copy the entire folder in or just by files; either works.
+这一步可以复制整个文件夹，也可以只复制里面的文件，不影响使用。
 
-### 4. Restart and apply
+### 4. 重启软件，开始使用
 
-Close and reopen your Adobe editing applications, then open a supported RAW photo. Choose a look by name in the Profile Browser, or apply its matching preset from the **Fujifilm Film Simulation** preset group. The wrapper presets select the corresponding profile and are useful for batch application in Bridge.
+关闭并重新打开 Adobe 软件，再打开一张受支持的 RAW 照片。你可以在配置文件浏览器（Profile Browser）中找到并选择喜欢的胶片风格，也可以直接使用 **Fujifilm Film Simulation** 预设组中的对应预设。文件名带有 `wrapper` 的预设用于调用同名的创意配置文件，方便在 Bridge 中批量套用。
 
 <details>
-<summary><strong>If a profile does not appear</strong></summary>
+<summary><strong>安装后找不到配置文件？</strong></summary>
 
-- Confirm that you opened a RAW file and installed the `.dcp` for that camera.
-- Check both destination folders: `.dcp` files go in `CameraProfiles`; `.xmp` files go in `Settings`.
-- Install both the Creative Profiles and their wrappers. A wrapper needs its matching profile.
-- Restart the application after copying the files.
-- Check Adobe's camera list below for your model's minimum application version.
+- 确认打开的是 RAW 文件，并且已经安装了该设备对应的 `.dcp` 文件。
+- 检查文件是否放对位置：`.dcp` 放在 `CameraProfiles`，`.xmp` 放在 `Settings`。
+- 不要只安装 `wrapper` 预设；它需要搭配对应的创意配置文件才能使用。
+- 复制完成后，关闭并重新打开软件。
 
 </details>
 
-## Supported models
+## 支持的型号
 
-The repository currently contains **1,464 `.dcp` files**, covering Camera Raw through version 18.4; filenames may use internal camera identifiers rather than Adobe's display names.
+仓库目前提供 **1,464 个 `.dcp` 文件**，涵盖 Camera Raw 18.4 及之前版本支持的型号。部分文件名采用设备内部的型号标识，因此可能与 Adobe 列表中的名称不完全一致。
 
-Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on macOS to search within the page. Regional names and camera modules are retained.
+先展开对应品牌，再按 **Ctrl+F**（Windows）或 **Command+F**（macOS）搜索型号。列表保留了不同地区的型号名称及不同摄像头模组的标注。
 
 <details>
-<summary><strong>Apple</strong> &middot; 113 entries</summary>
+<summary><strong>Apple</strong> &middot; 113 条</summary>
 
 - iPhone 17e Front Camera
 - iPhone 17e Rear Camera
@@ -231,7 +230,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Canon</strong> &middot; 133 entries</summary>
+<summary><strong>Canon</strong> &middot; 133 条</summary>
 
 - EOS-1D
 - EOS-1D C
@@ -370,7 +369,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Casio</strong> &middot; 26 entries</summary>
+<summary><strong>Casio</strong> &middot; 26 条</summary>
 
 - EXILIM EX-10
 - EXILIM EX-100
@@ -402,14 +401,14 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Contax</strong> &middot; 1 entry</summary>
+<summary><strong>Contax</strong> &middot; 1 条</summary>
 
 - N Digital
 
 </details>
 
 <details>
-<summary><strong>DJI</strong> &middot; 21 entries</summary>
+<summary><strong>DJI</strong> &middot; 21 条</summary>
 
 - DJI Mavic 2 Pro (Hasselblad L1D-20c)
 - DJI AIR 2S
@@ -436,14 +435,14 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>DxO</strong> &middot; 1 entry</summary>
+<summary><strong>DxO</strong> &middot; 1 条</summary>
 
 - DxO ONE
 
 </details>
 
 <details>
-<summary><strong>Epson</strong> &middot; 3 entries</summary>
+<summary><strong>Epson</strong> &middot; 3 条</summary>
 
 - R-D1
 - R-D1s
@@ -452,7 +451,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Fujifilm</strong> &middot; 101 entries</summary>
+<summary><strong>Fujifilm</strong> &middot; 101 条</summary>
 
 - GFX 50R
 - GFX 50S
@@ -559,7 +558,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Google</strong> &middot; 88 entries</summary>
+<summary><strong>Google</strong> &middot; 88 条</summary>
 
 - Pixel
 - Pixel XL
@@ -653,7 +652,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>GoPro</strong> &middot; 11 entries</summary>
+<summary><strong>GoPro</strong> &middot; 11 条</summary>
 
 - FUSION
 - HERO5 Black
@@ -670,7 +669,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Hasselblad</strong> &middot; 34 entries</summary>
+<summary><strong>Hasselblad</strong> &middot; 34 条</summary>
 
 - 503CWD
 - A6D-100c
@@ -710,7 +709,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Huawei</strong> &middot; 11 entries</summary>
+<summary><strong>Huawei</strong> &middot; 11 条</summary>
 
 - Honor 20 Pro Rear Main Camera
 - Honor 20 Pro Rear Telephoto Camera
@@ -727,7 +726,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Insta360</strong> &middot; 2 entries</summary>
+<summary><strong>Insta360</strong> &middot; 2 条</summary>
 
 - Ace Pro 2
 - GO Ultra
@@ -735,7 +734,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Kodak</strong> &middot; 12 entries</summary>
+<summary><strong>Kodak</strong> &middot; 12 条</summary>
 
 - DCS 14n
 - DCS 720x
@@ -753,7 +752,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Konica Minolta</strong> &middot; 11 entries</summary>
+<summary><strong>Konica Minolta</strong> &middot; 11 条</summary>
 
 - Alpha-5 Digital (China)
 - Alpha Sweet Digital (Japan)
@@ -770,7 +769,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Leaf</strong> &middot; 22 entries</summary>
+<summary><strong>Leaf</strong> &middot; 22 条</summary>
 
 - AFi II 6
 - AFi II 7
@@ -798,7 +797,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Leica</strong> &middot; 61 entries</summary>
+<summary><strong>Leica</strong> &middot; 61 条</summary>
 
 - C (Typ 112)
 - CL
@@ -865,7 +864,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>LG</strong> &middot; 18 entries</summary>
+<summary><strong>LG</strong> &middot; 18 条</summary>
 
 - G7 ThinQ
 - G8 ThinQ Front Camera
@@ -889,14 +888,14 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Light</strong> &middot; 1 entry</summary>
+<summary><strong>Light</strong> &middot; 1 条</summary>
 
 - L16
 
 </details>
 
 <details>
-<summary><strong>Mamiya</strong> &middot; 9 entries</summary>
+<summary><strong>Mamiya</strong> &middot; 9 条</summary>
 
 - Mamiya DM22
 - Mamiya DM28
@@ -911,7 +910,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Motorola</strong> &middot; 3 entries</summary>
+<summary><strong>Motorola</strong> &middot; 3 条</summary>
 
 - Moto G Power (2021) Front Camera
 - Moto G Power (2021) Rear Macro Camera
@@ -920,7 +919,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Nikon</strong> &middot; 101 entries</summary>
+<summary><strong>Nikon</strong> &middot; 101 条</summary>
 
 - 1 J1
 - 1 J2
@@ -1027,7 +1026,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Nokia</strong> &middot; 3 entries</summary>
+<summary><strong>Nokia</strong> &middot; 3 条</summary>
 
 - Lumia 1020
 - HMD Global Nokia 9 PureView Front Camera
@@ -1036,7 +1035,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Olympus</strong> &middot; 71 entries</summary>
+<summary><strong>Olympus</strong> &middot; 71 条</summary>
 
 - AIR A01
 - Camedia C-5050 Zoom
@@ -1113,7 +1112,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>OM Digital Solutions</strong> &middot; 7 entries</summary>
+<summary><strong>OM Digital Solutions</strong> &middot; 7 条</summary>
 
 - OM System OM-1
 - OM System OM-5
@@ -1126,7 +1125,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>OnePlus</strong> &middot; 9 entries</summary>
+<summary><strong>OnePlus</strong> &middot; 9 条</summary>
 
 - 7T Front Camera
 - 7T Rear Main Camera
@@ -1141,7 +1140,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Oppo</strong> &middot; 37 entries</summary>
+<summary><strong>Oppo</strong> &middot; 37 条</summary>
 
 - Find X7 Telephoto Camera
 - Find X7 Ultrawide Camera
@@ -1184,7 +1183,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Panasonic</strong> &middot; 104 entries</summary>
+<summary><strong>Panasonic</strong> &middot; 104 条</summary>
 
 - LUMIX AG-GH4
 - LUMIX DC-FZ80 (DC-FZ82, DC-FZ85)
@@ -1294,7 +1293,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Parrot</strong> &middot; 2 entries</summary>
+<summary><strong>Parrot</strong> &middot; 2 条</summary>
 
 - Anafi
 - ANAFI Ai
@@ -1302,7 +1301,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Pentax</strong> &middot; 40 entries</summary>
+<summary><strong>Pentax</strong> &middot; 40 条</summary>
 
 - 645D
 - 645Z
@@ -1348,7 +1347,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Phase One</strong> &middot; 28 entries</summary>
+<summary><strong>Phase One</strong> &middot; 28 条</summary>
 
 - H 20
 - H 25
@@ -1382,14 +1381,14 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Pixii</strong> &middot; 1 entry</summary>
+<summary><strong>Pixii</strong> &middot; 1 条</summary>
 
 - PIXII Camera (A1571)
 
 </details>
 
 <details>
-<summary><strong>Ricoh</strong> &middot; 20 entries</summary>
+<summary><strong>Ricoh</strong> &middot; 20 条</summary>
 
 - GR
 - GR II
@@ -1415,7 +1414,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Samsung</strong> &middot; 128 entries</summary>
+<summary><strong>Samsung</strong> &middot; 128 条</summary>
 
 - EK-GN100
 - EK-GN110
@@ -1549,7 +1548,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Sigma</strong> &middot; 9 entries</summary>
+<summary><strong>Sigma</strong> &middot; 9 条</summary>
 
 - BF
 - DP1
@@ -1564,14 +1563,14 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Skydio</strong> &middot; 1 entry</summary>
+<summary><strong>Skydio</strong> &middot; 1 条</summary>
 
 - Skydio 2
 
 </details>
 
 <details>
-<summary><strong>Sony</strong> &middot; 149 entries</summary>
+<summary><strong>Sony</strong> &middot; 149 条</summary>
 
 - Xperia 5 IV Telephoto Camera
 - Xperia 5 IV Ultrawide Camera
@@ -1726,7 +1725,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Xiaomi</strong> &middot; 58 entries</summary>
+<summary><strong>Xiaomi</strong> &middot; 58 条</summary>
 
 - Mi 11 Lite Front Camera
 - Mi 11 Lite Rear Ultrawide Camera
@@ -1790,7 +1789,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Yuneec</strong> &middot; 2 entries</summary>
+<summary><strong>Yuneec</strong> &middot; 2 条</summary>
 
 - CGO4
 - ION L1 Pro
@@ -1798,7 +1797,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Zeiss</strong> &middot; 1 entry</summary>
+<summary><strong>Zeiss</strong> &middot; 1 条</summary>
 
 - ZX1
 
