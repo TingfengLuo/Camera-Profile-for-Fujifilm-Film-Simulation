@@ -75,7 +75,7 @@ Copy `.dcp` files in [Adobe Standard Linear Profile](Adobe%20Standard%20Linear%2
 | Windows | `C:\Users\<your-login>\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\` |
 | macOS | `/Users/<your-login>/Library/Application Support/Adobe/CameraRaw/CameraProfiles/` |
 
-Replace `<your-login>` with your computer account name (for example, `C:\Users\leumas\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\` on Windows).
+In the paths above, `<your-login>` is your computer account name. For example, if your account name is `leumas`, the full Windows path is `C:\Users\leumas\AppData\Roaming\Adobe\CameraRaw\CameraProfiles\`.
 
 ⚠️ **.dcp files only, do NOT include the folder.**
 
