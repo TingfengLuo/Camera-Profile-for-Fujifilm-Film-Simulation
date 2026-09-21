@@ -14,21 +14,64 @@
 
 ## 🎬 效果对比
 
-| 原图 | Classic Neg | Classic Chrome |
-| :---: | :---: | :---: |
-| ![原图](demo%20images/Original.jpg) | ![Classic Neg 效果](demo%20images/Classic%20Neg.jpg) | ![Classic Chrome 效果](demo%20images/Classic%20Chrome.jpg) |
-
-| Astia | Provia | Velvia |
-| :---: | :---: | :---: |
-| ![Astia 效果](demo%20images/Astia.jpg) | ![Provia 效果](demo%20images/Provia.jpg) | ![Velvia 效果](demo%20images/Velvia.jpg) |
-
-| Eterna | Pro Neg Std | Pro Neg Hi |
-| :---: | :---: | :---: |
-| ![Eterna 效果](demo%20images/Eterna.jpg) | ![Pro Neg Std 效果](demo%20images/Pro%20Neg%20Std.jpg) | ![Pro Neg Hi 效果](demo%20images/Pro%20Neg%20Hi.jpg) |
-
-| Reala Ace | Bleach Bypass | Nostalgic Neg |
-| :---: | :---: | :---: |
-| ![Reala Ace 效果](demo%20images/Reala%20Ace.jpg) | ![Bleach Bypass 效果](demo%20images/Bleach%20Bypass.jpg) | ![Nostalgic Neg 效果](demo%20images/Nostalgic%20Neg.jpg) |
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Original.jpg" alt="原图" width="100%"><br/>
+      <sub><b>原图</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Classic%20Neg.jpg" alt="Classic Neg 效果" width="100%"><br/>
+      <sub><b>Classic Neg</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Classic%20Chrome.jpg" alt="Classic Chrome 效果" width="100%"><br/>
+      <sub><b>Classic Chrome</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Astia.jpg" alt="Astia 效果" width="100%"><br/>
+      <sub><b>Astia</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Provia.jpg" alt="Provia 效果" width="100%"><br/>
+      <sub><b>Provia</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Velvia.jpg" alt="Velvia 效果" width="100%"><br/>
+      <sub><b>Velvia</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Eterna.jpg" alt="Eterna 效果" width="100%"><br/>
+      <sub><b>Eterna</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Pro%20Neg%20Std.jpg" alt="Pro Neg Std 效果" width="100%"><br/>
+      <sub><b>Pro Neg Std</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Pro%20Neg%20Hi.jpg" alt="Pro Neg Hi 效果" width="100%"><br/>
+      <sub><b>Pro Neg Hi</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Reala%20Ace.jpg" alt="Reala Ace 效果" width="100%"><br/>
+      <sub><b>Reala Ace</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Bleach%20Bypass.jpg" alt="Bleach Bypass 效果" width="100%"><br/>
+      <sub><b>Bleach Bypass</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Nostalgic%20Neg.jpg" alt="Nostalgic Neg 效果" width="100%"><br/>
+      <sub><b>Nostalgic Neg</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## 胶片模拟风格
 

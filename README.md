@@ -14,21 +14,64 @@ The Creative Profiles have **no camera-model restriction**, so you can use the s
 
 ## 🎬 Before and After
 
-| Original | Classic Neg | Classic Chrome |
-| :---: | :---: | :---: |
-| ![Original photo](demo%20images/Original.jpg) | ![Photo with Classic Neg](demo%20images/Classic%20Neg.jpg) | ![Photo with Classic Chrome](demo%20images/Classic%20Chrome.jpg) |
-
-| Astia | Provia | Velvia |
-| :---: | :---: | :---: |
-| ![Photo with Astia](demo%20images/Astia.jpg) | ![Photo with Provia](demo%20images/Provia.jpg) | ![Photo with Velvia](demo%20images/Velvia.jpg) |
-
-| Eterna | Pro Neg Std | Pro Neg Hi |
-| :---: | :---: | :---: |
-| ![Photo with Eterna](demo%20images/Eterna.jpg) | ![Photo with Pro Neg Std](demo%20images/Pro%20Neg%20Std.jpg) | ![Photo with Pro Neg Hi](demo%20images/Pro%20Neg%20Hi.jpg) |
-
-| Reala Ace | Bleach Bypass | Nostalgic Neg |
-| :---: | :---: | :---: |
-| ![Photo with Reala Ace](demo%20images/Reala%20Ace.jpg) | ![Photo with Bleach Bypass](demo%20images/Bleach%20Bypass.jpg) | ![Photo with Nostalgic Neg](demo%20images/Nostalgic%20Neg.jpg) |
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Original.jpg" alt="Original photo" width="100%"><br/>
+      <sub><b>Original</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Classic%20Neg.jpg" alt="Photo with Classic Neg" width="100%"><br/>
+      <sub><b>Classic Neg</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Classic%20Chrome.jpg" alt="Photo with Classic Chrome" width="100%"><br/>
+      <sub><b>Classic Chrome</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Astia.jpg" alt="Photo with Astia" width="100%"><br/>
+      <sub><b>Astia</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Provia.jpg" alt="Photo with Provia" width="100%"><br/>
+      <sub><b>Provia</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Velvia.jpg" alt="Photo with Velvia" width="100%"><br/>
+      <sub><b>Velvia</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Eterna.jpg" alt="Photo with Eterna" width="100%"><br/>
+      <sub><b>Eterna</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Pro%20Neg%20Std.jpg" alt="Photo with Pro Neg Std" width="100%"><br/>
+      <sub><b>Pro Neg Std</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Pro%20Neg%20Hi.jpg" alt="Photo with Pro Neg Hi" width="100%"><br/>
+      <sub><b>Pro Neg Hi</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Reala%20Ace.jpg" alt="Photo with Reala Ace" width="100%"><br/>
+      <sub><b>Reala Ace</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Bleach%20Bypass.jpg" alt="Photo with Bleach Bypass" width="100%"><br/>
+      <sub><b>Bleach Bypass</b></sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="demo%20images/Nostalgic%20Neg.jpg" alt="Photo with Nostalgic Neg" width="100%"><br/>
+      <sub><b>Nostalgic Neg</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## Film simulations
 
