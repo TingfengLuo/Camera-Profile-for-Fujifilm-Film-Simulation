@@ -99,6 +99,8 @@ The pack builds on **your camera's Adobe color calibration**, preserving its col
 | `Fujifilm Simulation LUT/*.xmp` | Creative Profiles containing the film LUTs from [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
 | `Fujifilm Simulation LUT/*wrapper.xmp` | Presets that select the corresponding Creative Profile |
 
+**DxO PureRAW DNGs work too.** The looks also apply to the linear DNGs that DxO PureRAW produces. PureRAW keeps the camera model and the camera's own color matrices in the DNG, so Lightroom still pairs the file with that camera's base profile. This was tested with PureRAW 6 files from a Ricoh GR IV in Lightroom 10.0.
+
 ## Installation
 
 ### 1. Download the pack

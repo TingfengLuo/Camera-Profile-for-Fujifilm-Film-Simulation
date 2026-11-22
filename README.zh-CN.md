@@ -99,6 +99,8 @@
 | `Fujifilm Simulation LUT/*.xmp` | 包含胶片 LUT 的创意配置文件，LUT 来自 [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
 | `Fujifilm Simulation LUT/*wrapper.xmp` | 一键调用对应创意配置文件的预设 |
 
+**同样支持 DxO PureRAW 生成的 DNG。** 这些胶片风格也可以用于 DxO PureRAW 输出的线性 DNG。PureRAW 会在 DNG 中保留相机型号和相机原生的颜色矩阵，因此 Lightroom 仍会为文件匹配对应相机的基础配置文件。已在 Lightroom 10.0 中使用经 PureRAW 6 处理的 Ricoh GR IV 文件测试。
+
 ## 安装方法
 
 ### 1. 下载文件
