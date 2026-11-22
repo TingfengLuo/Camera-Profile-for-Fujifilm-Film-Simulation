@@ -99,6 +99,8 @@ The pack builds on **your camera's Adobe color calibration**, preserving its col
 | `Fujifilm Simulation LUT/*.xmp` | Creative Profiles containing the film LUTs from [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
 | `Fujifilm Simulation LUT/*wrapper.xmp` | Presets that select the corresponding Creative Profile |
 
+**DxO PureRAW DNGs work too.** The looks also apply to the linear DNGs that DxO PureRAW produces. PureRAW keeps the camera model and the camera's own color matrices in the DNG, so Lightroom still pairs the file with that camera's base profile. This was tested with PureRAW 6 files from a Ricoh GR IV in Lightroom 10.0.
+
 ## Installation
 
 ### 1. Download the pack
@@ -150,7 +152,7 @@ Close and reopen your Adobe editing applications, then open a supported RAW phot
 
 ## Supported models
 
-The repository currently contains **1,464 `.dcp` files**, covering Camera Raw through version 18.4; filenames may use internal camera identifiers rather than Adobe's display names.
+The repository currently contains **1,480 `.dcp` files**, covering Camera Raw through version 18.4 plus the Google Pixel 11 series (Camera Raw 18.7); filenames may use internal camera identifiers rather than Adobe's display names.
 
 Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on macOS to search within the page. Regional names and camera modules are retained.
 
@@ -602,7 +604,7 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 </details>
 
 <details>
-<summary><strong>Google</strong> &middot; 88 entries</summary>
+<summary><strong>Google</strong> &middot; 104 entries</summary>
 
 - Pixel
 - Pixel XL
@@ -688,6 +690,22 @@ Expand your camera's brand, then use **Ctrl+F** on Windows or **Command+F** on m
 - Pixel 10 Pro Fold Telephoto Camera
 - Pixel 10 Pro Fold Ultrawide Camera
 - Pixel 10 Pro Fold Wide Camera
+- Pixel 11 Front Camera
+- Pixel 11 Telephoto Camera
+- Pixel 11 Ultrawide Camera
+- Pixel 11 Wide Camera
+- Pixel 11 Pro Front Camera
+- Pixel 11 Pro Telephoto Camera
+- Pixel 11 Pro Ultrawide Camera
+- Pixel 11 Pro Wide Camera
+- Pixel 11 Pro XL Front Camera
+- Pixel 11 Pro XL Telephoto Camera
+- Pixel 11 Pro XL Ultrawide Camera
+- Pixel 11 Pro XL Wide Camera
+- Pixel 11 Pro Fold Front Camera
+- Pixel 11 Pro Fold Telephoto Camera
+- Pixel 11 Pro Fold Ultrawide Camera
+- Pixel 11 Pro Fold Wide Camera
 - Pixel Fold Inner Camera
 - Pixel Fold Telephoto Camera
 - Pixel Fold Ultrawide Camera

@@ -99,6 +99,8 @@
 | `Fujifilm Simulation LUT/*.xmp` | 包含胶片 LUT 的创意配置文件，LUT 来自 [FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) |
 | `Fujifilm Simulation LUT/*wrapper.xmp` | 一键调用对应创意配置文件的预设 |
 
+**同样支持 DxO PureRAW 生成的 DNG。** 这些胶片风格也可以用于 DxO PureRAW 输出的线性 DNG。PureRAW 会在 DNG 中保留相机型号和相机原生的颜色矩阵，因此 Lightroom 仍会为文件匹配对应相机的基础配置文件。已在 Lightroom 10.0 中使用经 PureRAW 6 处理的 Ricoh GR IV 文件测试。
+
 ## 安装方法
 
 ### 1. 下载文件
@@ -149,7 +151,7 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 
 ## 支持的型号
 
-仓库目前提供 **1,464 个 `.dcp` 文件**，涵盖 Camera Raw 18.4 及之前版本支持的型号。部分文件名采用设备内部的型号标识，因此可能与 Adobe 列表中的名称不完全一致。
+仓库目前提供 **1,480 个 `.dcp` 文件**，涵盖 Camera Raw 18.4 及之前版本支持的型号，以及 Google Pixel 11 系列（Camera Raw 18.7）。部分文件名采用设备内部的型号标识，因此可能与 Adobe 列表中的名称不完全一致。
 
 先展开对应品牌，再按 **Ctrl+F**（Windows）或 **Command+F**（macOS）搜索型号。列表保留了不同地区的型号名称及不同摄像头模组的标注。
 
@@ -601,7 +603,7 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 </details>
 
 <details>
-<summary><strong>Google</strong> &middot; 88 条</summary>
+<summary><strong>Google</strong> &middot; 104 条</summary>
 
 - Pixel
 - Pixel XL
@@ -687,6 +689,22 @@ git clone https://github.com/TingfengLuo/Camera-Profile-for-Fujifilm-Film-Simula
 - Pixel 10 Pro Fold Telephoto Camera
 - Pixel 10 Pro Fold Ultrawide Camera
 - Pixel 10 Pro Fold Wide Camera
+- Pixel 11 Front Camera
+- Pixel 11 Telephoto Camera
+- Pixel 11 Ultrawide Camera
+- Pixel 11 Wide Camera
+- Pixel 11 Pro Front Camera
+- Pixel 11 Pro Telephoto Camera
+- Pixel 11 Pro Ultrawide Camera
+- Pixel 11 Pro Wide Camera
+- Pixel 11 Pro XL Front Camera
+- Pixel 11 Pro XL Telephoto Camera
+- Pixel 11 Pro XL Ultrawide Camera
+- Pixel 11 Pro XL Wide Camera
+- Pixel 11 Pro Fold Front Camera
+- Pixel 11 Pro Fold Telephoto Camera
+- Pixel 11 Pro Fold Ultrawide Camera
+- Pixel 11 Pro Fold Wide Camera
 - Pixel Fold Inner Camera
 - Pixel Fold Telephoto Camera
 - Pixel Fold Ultrawide Camera
